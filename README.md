@@ -28,10 +28,10 @@ Windows applications blah blah blah DLL stuff
 5. Profit.
 
 The hacks written are:
+- Press <code>]</code> next entity.
+- Press <code>[</code> previous entity.
 - Press <code>F2</code> to toggle GUI menu.
 - Press <code>TAB</code> to toggle God mode.
-- Press <code>[</code> previous entity.
-- Press <code>]</code> next entity.
 - Press <code>T</code> to teleport to any given entity.
 - Press <code>Shift + T</code> to teleport to current camera target.
 
