@@ -28,6 +28,7 @@ Windows applications blah blah blah DLL stuff
 5. Profit.
 
 The hacks written are:
+- Press <code>F2</code> to toggle GUI menu.
 - Press <code>TAB</code> to toggle God mode.
 - Press <code>[</code> previous entity.
 - Press <code>]</code> next entity.
