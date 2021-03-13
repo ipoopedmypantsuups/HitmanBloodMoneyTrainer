@@ -1,7 +1,7 @@
 # Hitman Blood Money Trainer
   
 ## Overview:
-This is a repository for a Hitman Blood Money DLL that I built with Visual C++ ImGui and Kiero.
+This is a repository for a Hitman Blood Money DLL that I built with C, C++, ImGui and Kiero.
 
 The main purpose of this project was to get familiar with programming internal GUIs and  
 familiarize myself with process hooking techniques.
