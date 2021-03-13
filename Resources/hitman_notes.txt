@@ -1,0 +1,66 @@
+###################################
+### 							###
+###		 Hitman Bloodmoney		###
+### 							###
+###################################
+
+
+Player health initial values:
+	pro: 80f
+	rookie: 190f
+	
+npc health:
+	starts at 40f
+	
+Entity List:
+	entity seperated by BAC
+	x starts at + EDC
+	["HitmanBloodMoney.exe"+0041F83C]
+	size of entity is BAC (2988)
+
+
+What writes to health:
+	-------- NEW HEALTH -------- 
+	005FB973 - D8 64 24 08 - fsub dword ptr [esp+08]
+
+	Original Op Code 	= D8 64 24 08
+	New Op Code 		= 90 90 90 90
+	Length of the new op code = 4
+	
+	-------- AMMO DEC --------
+	005140E7 - 49 - dec ecx
+
+	Original Op code 	= 49
+	New Op Code			= 90
+	length of the new op code = 1
+	
+	
+	-------- ONE SHOT KILL --------
+	(OG)
+	HitmanBloodMoney.exe+232EA6 - D8 64 24 04 D9 91 28 09 00 00  - fsub dword ptr [esp+04], fst dword ptr [ecx+00000928]
+	length = 8
+	
+	(NEW)
+	HitmanBloodMoney.exe+232EA6 - D8 A1 28 09 00 00 90 90 90 90 - fsub dword ptr [ecx+00000928], nop
+	length = 8
+	
+
+	
+All/Levels/OneLiners/SouthernTwang/Guards/HumanShield/GuardSpots:
+	HitmanBloodMoney + 0x000186B0 -> C8 -> 60 -> C -> 188 -> 250
+	
+Working static base addr:
+	0018F408
+	0018F44C
+	0018F4C4
+	0018F504
+	0018F514
+	0018F518
+
+
+
+
+
+###########################################################
+
+DllMain == HackThread
