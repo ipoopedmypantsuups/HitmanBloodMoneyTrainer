@@ -46,7 +46,7 @@ solvable by changing the one shot op code from <code>mov</code> to <code>xor</co
 
 There are currently game states that will trigger a crash if cheats are enabled.
 
-These locations include:
+These game states include:
 - In game escape menu
 - Profile loading
 - All cinematics
