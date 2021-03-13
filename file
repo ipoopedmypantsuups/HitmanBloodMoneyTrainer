@@ -1,0 +1,1000 @@
+ 1017  clear
+ 1018  ls
+ 1019  make clean
+ 1020  make
+ 1021  clear
+ 1022  vim -p $(grep -rl "ADS" .)
+ 1023  clear
+ 1024  vim -p $(grep -rl --c --h "ADS" .)
+ 1025  vim -p $(grep -rl --cc "ADS" .)
+ 1026  vim -p $(grep -rl --cpp "ADS" .)
+ 1027  clear
+ 1028  ls
+ 1029  PS
+ 1030  cd desktop
+ 1031  clear
+ 1032  PS
+ 1033  powershell.exe
+ 1034  vim ~/.bashrc
+ 1035  exit
+ 1036  vim ~/.bashrc
+ 1037  exit
+ 1038  cd ~/desktop
+ 1039  clear
+ 1040  ls
+ 1041  PS2
+ 1042  RunAs
+ 1043  ls
+ 1044  clear
+ 1045  ls
+ 1046  vim ~/.bashrc
+ 1047  source ~/.bashrc
+ 1048  clear
+ 1049  PS2
+ 1050  clear
+ 1051  exit
+ 1052  clear
+ 1053  ls
+ 1054  cd ~/desk
+ 1055  cd ~/desktop
+ 1056  vim ~/.bashrc
+ 1057  PS
+ 1058  clear
+ 1059  ls
+ 1060  cd Google\ Drive/My\ Documents/Projects/Games/sp3_2/
+ 1061  clear
+ 1062  PS
+ 1063  cd ~/desktop
+ 1064  ..
+ 1065  cd ..
+ 1066  cd /mnt/c/Users/teame/Downloads/
+ 1067  cd Anydesk/
+ 1068  wget https://download.anydesk.com/AnyDesk.exe?_ga=2.179942500.1157352284.1614977033-2135038368.1614977033
+ 1069  A
+ 1070  vim AnyDesk.exe\?_ga\=2.179942500.1157352284.1614977033-2135038368.1614977033 
+ 1071  mv AnyDesk.exe\?_ga\=2.179942500.1157352284.1614977033-2135038368.1614977033 AnyDesk.exe
+ 1072  ls
+ 1073  clear
+ 1074  PS
+ 1075  PS2
+ 1076  clear
+ 1077  vim
+ 1078  cd ~/desktop
+ 1079  clear
+ 1080  ls
+ 1081  clear
+ 1082  PS
+ 1083  ls
+ 1084  PS
+ 1085  ifconfig
+ 1086  clear
+ 1087  /mnt/c/Windows/System32/
+ 1088  server
+ 1089  clear
+ 1090  clear
+ 1091  PS
+ 1092  cd ~/desktop
+ 1093  PS
+ 1094  ls
+ 1095  clear
+ 1096  PS
+ 1097  clear
+ 1098  cd ~/Google\ Drive/My\ Documents/Projects/Games/sp3_2/
+ 1099  vim src/main.c 
+ 1100  clear
+ 1101  PS
+ 1102  make
+ 1103  vim src/main.c 
+ 1104  make
+ 1105  clear
+ 1106  PS
+ 1107  cd ../hitman
+ 1108  cd ../hitman3
+ 1109  clear
+ 1110  ls
+ 1111  ls -a
+ 1112  cd ..
+ 1113  rm hitman3
+ 1114  rm hitman3 -fr
+ 1115  clear
+ 1116  ls
+ 1117  cp -r hitman\ bloodmoney\ hacks/ ./hitman3
+ 1118  cd hitman3
+ 1119  cd Multi-Hack/
+ 1120  cd ..
+ 1121  rm -fr ImGui-DirectX-9-Kiero-Hook/ hitman_hack.dll 
+ 1122  ls
+ 1123  cd Multi-Hack/
+ 1124  rm -fr .git .vs Debug/
+ 1125  ls
+ 1126  cp ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/* .
+ 1127  cp ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/* . -r
+ 1128  ls
+ 1129  rm ImGui*
+ 1130  rm ImGui* -fr
+ 1131  ls
+ 1132  mkdir includes
+ 1133  mkdir source
+ 1134  ls
+ 1135  mv includes.h src/includes.h
+ 1136  mv includes.h src/
+ 1137  mkdir src
+ 1138  rm src
+ 1139  rm source -fr
+ 1140  ls
+ 1141  clear
+ 1142  cd .
+ 1143  clear
+ 1144  la
+ 1145  mv includes.h src
+ 1146  ls
+ 1147  mv *.h includes/
+ 1148  ls
+ 1149  mv *.cpp src
+ 1150  ls
+ 1151  rm -fr Debug/
+ 1152  clear
+ 1153  ls
+ 1154  mv imgui kiero incldues -fr
+ 1155  mv imgui kiero incldues -f
+ 1156  mv imgui kiero includes -f
+ 1157  ls
+ 1158  cd includes
+ 1159  clear
+ 1160  cd ..
+ 1161  clear
+ 1162  ls
+ 1163  vim Makefile
+ 1164  cd ../..
+ 1165  cd sp3_2/
+ 1166  cp -p Makefile ~/prebuilt/make/win32/Makefile
+ 1167  mkdir -p ~/prebuilt/make/win/32
+ 1168  mkdir ~/prebuilt/make/win/64
+ 1169  clear
+ 1170  la
+ 1171  cp Makefile ~/prebuilt/make/win/32/Makefile
+ 1172  ls
+ 1173  clear
+ 1174  la
+ 1175  cd ../hitman3
+ 1176  mkdir resources
+ 1177  mv *.* resources/
+ 1178  ls
+ 1179  ls resources/
+ 1180  cd ..
+ 1181  cd hitman3
+ 1182  clear
+ 1183  cd Multi-Hack/
+ 1184  cd ..
+ 1185  mv Multi-Hack/* . -fr
+ 1186  mv Multi-Hack/* . -f
+ 1187  ls
+ 1188  rm Multi-Hack/
+ 1189  ls Multi-Hack/
+ 1190  rm Multi-Hack/ -fr
+ 1191  ls
+ 1192  cp ../sp3_2/Makefile .
+ 1193  ls
+ 1194  vim Makefile 
+ 1195  vim compile_flags.txt 
+ 1196  wxc++
+ 1197  ls
+ 1198  vim compile_flags.txt 
+ 1199  clear
+ 1200  make
+ 1201  vim src/includes.h 
+ 1202  make
+ 1203  vim src/hacks.h
+ 1204  vim includes/hacks.h 
+ 1205  clear
+ 1206  make
+ 1207  vim Makefile 
+ 1208  make
+ 1209  cd includes/
+ 1210  cd imgui/
+ 1211  cd ../kiero/
+ 1212  cd minhook/
+ 1213  cd src
+ 1214  cd ..
+ 1215  clear
+ 1216  cd ..
+ 1217  vim Makefile 
+ 1218  make
+ 1219  vim Makefile 
+ 1220  make
+ 1221  vim src/main.cpp 
+ 1222  vim -p Makefile compile_flags.txt 
+ 1223  vim src/main.cpp 
+ 1224  vim src/includes.h 
+ 1225  vim -p Makefile compile_flags.txt 
+ 1226  vim src/includes.h 
+ 1227  vim src/main.cpp 
+ 1228  clear
+ 1229  make
+ 1230  grep -frl "d3dx9.lib" /usr
+ 1231  grep -r -l "d3dx9.lib" /usr
+ 1232  clear
+ 1233  grep --help
+ 1234  clear
+ 1235  grep -r -l /usr/i686-w64-mingw32/
+ 1236  grep -r -l "d3dx9" /usr/i686-w64-mingw32/
+ 1237  grep -r -l "d3d" /usr/i686-w64-mingw32/
+ 1238  clear
+ 1239  vim Makefile 
+ 1240  clear
+ 1241  make
+ 1242  clear
+ 1243  vim Makefile 
+ 1244  clear
+ 1245  make
+ 1246  vim Makefile 
+ 1247  make
+ 1248  clear
+ 1249  make
+ 1250  vim Makefile 
+ 1251  make
+ 1252  vim Makefile 
+ 1253  make
+ 1254  vim test.c
+ 1255  vim includes/imgui/imgui_impl_win32.cpp
+ 1256  make
+ 1257  clear
+ 1258  ls
+ 1259  ls Multi-Hack/
+ 1260  cd inlcluds
+ 1261  cd includes/
+ 1262  cd ..
+ 1263  rm -fr Multi-Hack/
+ 1264  ls
+ 1265  clear
+ 1266  ls
+ 1267  vim Makefile 
+ 1268  make
+ 1269  vim Makefile 
+ 1270  make
+ 1271  vim includes/kiero/kiero.cpp 
+ 1272  clear
+ 1273  make
+ 1274  clear
+ 1275  make
+ 1276  cd ..
+ 1277  rm -fr hitman3
+ 1278  cp hitman\ bloodmoney\ hacks/ ./hitman3 -fr
+ 1279  cd hitman3
+ 1280  mkdir resources
+ 1281  mv *.* resources/
+ 1282  ls
+ 1283  rm ImGui-DirectX-9-Kiero-Hook/ -fr
+ 1284  cd Multi-Hack/
+ 1285  cd ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/
+ 1286  cd ..
+ 1287  cd ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/
+ 1288  cd ..
+ 1289  cd test/
+ 1290  ls
+ 1291  cd ..
+ 1292  rm -fr test
+ 1293  cd utils/
+ 1294  cd ImGui-DirectX-11-Kiero-Hook/
+ 1295  cd ImGui\ DirectX\ 11\ Kiero\ Hook/
+ 1296  cd ..
+ 1297  ls
+ 1298  cd Machine\ Learning/
+ 1299  rm -fr Krish/ sentdex/ Rubiks\ Cube\ Solver\ C++/
+ 1300  ls
+ 1301  rm -fr .ipynb_checkpoints/
+ 1302  rm -fr Facial\ Recognition/
+ 1303  clear
+ 1304  ls
+ 1305  cd ..
+ 1306  clear
+ 1307  cd Games/
+ 1308  clear
+ 1309  ls
+ 1310  cd hitman
+ 1311  cd hitman3
+ 1312  cd Multi-Hack/
+ 1313  ls Release/
+ 1314  cd ..
+ 1315  clear
+ 1316  cd ..
+ 1317  cp DLL\ injector/ ~/desktop/DLL_Injector_GUI -fr
+ 1318  clear
+ 1319  elinks
+ 1320  sudo apt install elinks
+ 1321  apt --fix-broken instlal
+ 1322  apt --fix-broken install
+ 1323  sudo apt --fix-broken install
+ 1324  cat /etc/apt/sources.list.d
+ 1325  cd /etc/apt/sources.list
+ 1326  cd /etc/apt/sources.list.d
+ 1327  ls
+ 1328  ls -a
+ 1329  cat /etc/apt/sources.list
+ 1330  sudo nvim /etc/apt/sources.list
+ 1331  sudo sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+ 1332  ls
+ 1333  cd ..
+ 1334  vim preferences.d/
+ 1335  cd sources.list.d/
+ 1336  ls
+ 1337  ls -a
+ 1338  clear
+ 1339  sudo apt update
+ 1340  sudo apt-get --fix-broken install
+ 1341  sudo apt upgrade
+ 1342  cd ..
+ 1343  cd
+ 1344  vim .bashrc
+ 1345  rm -fr katoolin/
+ 1346  ls
+ 1347  vim
+ 1348  clear
+ 1349  ls
+ 1350  clear
+ 1351  ls
+ 1352  clear
+ 1353  sudo
+ 1354  sudo sy
+ 1355  sudo su
+ 1356  sudo ls
+ 1357  clear
+ 1358  cd ..
+ 1359  ls
+ 1360  clear
+ 1361  exit
+ 1362  sudo su
+ 1363  sudo nvim /etc/sudoers
+ 1364  exit
+ 1365  sudo su
+ 1366  exit
+ 1367  sudo su
+ 1368  sudo apt update
+ 1369  sudo nvim /etc/sudoers
+ 1370  clear
+ 1371  exit
+ 1372  sudo su
+ 1373  clear
+ 1374  makes sense
+ 1375  sudo smd
+ 1376  clear
+ 1377  elinks
+ 1378  sudo apt install elinks
+ 1379  sudo apt upgrade
+ 1380  sudo apt update
+ 1381  sudo nvim /etc/apt/sources.list
+ 1382  clear
+ 1383  sudo apt update
+ 1384  sudo apt upgrade
+ 1385  r2
+ 1386  clear
+ 1387  ls
+ 1388  cd ..
+ 1389  sudo apt install elinks
+ 1390  elinks
+ 1391  clear
+ 1392  ls
+ 1393  clear
+ 1394  cd ~/desktop
+ 1395  PS
+ 1396  ls
+ 1397  gunzip elinks.zip 
+ 1398  gzip -xvf elinks.zip 
+ 1399  gunzip -xvf elinks.zip 
+ 1400  gunzip -vf elinks.zip 
+ 1401  gunzip -cvf elinks.zip 
+ 1402  ls
+ 1403  sudo apt install unzip
+ 1404  clear
+ 1405  sudo apt install unzip
+ 1406  unzip
+ 1407  unzip elinks.zip 
+ 1408  rm elinks.zip 
+ 1409  wget http://www.kompx.com/soft/windows/browsers/elinks/1/elinks-0.11.6.zip
+ 1410  ls
+ 1411  unzip elinks-0.11.6.zip 
+ 1412  ls
+ 1413  mkdir elinks
+ 1414  mv *.dll elinks
+ 1415  mv elinks.exe elinks
+ 1416  PS
+ 1417  cd ~/Google\ Drive
+ 1418  cd My\ Documents/Projects/Games/sp3_2/
+ 1419  vim .
+ 1420  vim -p src/*
+ 1421  clear
+ 1422  make
+ 1423  ls
+ 1424  PS
+ 1425  clear
+ 1426  sudo apt update
+ 1427  clear
+ 1428  cd ~/Google\ Drive
+ 1429  cd My\ Documents/Projects/Games/
+ 1430  cd sp3_2/
+ 1431  vim $(grep -rl "include" .)
+ 1432  vim -p $(grep -rl "include" .)
+ 1433  clear
+ 1434  make
+ 1435  clear
+ 1436  PS
+ 1437  ls
+ 1438  vim -p $(grep -rl "include" .)
+ 1439  make lcean
+ 1440  make clean
+ 1441  make
+ 1442  clear
+ 1443  PS
+ 1444  vim -p $(grep -rl "include" .)
+ 1445  make clean
+ 1446  make
+ 1447  clear
+ 1448  PS
+ 1449  vim -p $(grep -rl "include" .)
+ 1450  make clean
+ 1451  make
+ 1452  clear
+ 1453  PS
+ 1454  vim -p $(grep -rl "include" .)
+ 1455  clear
+ 1456  cd Google\ Drive/My\ Documents/Projects/Games/sp3_2/
+ 1457  PS
+ 1458  vim -p $(grep -rl "include" .)
+ 1459  make clean
+ 1460  make
+ 1461  clear
+ 1462  PS
+ 1463  vim -p $(grep -rl "include" .)
+ 1464  make clean
+ 1465  make
+ 1466  clear
+ 1467  PS
+ 1468  clear
+ 1469  vim -p $(grep -rl "include" .)
+ 1470  vim includes/hacks.h 
+ 1471  make clean
+ 1472  make
+ 1473  vim src/main.c
+ 1474  clear
+ 1475  make clean
+ 1476  make
+ 1477  clear
+ 1478  PS
+ 1479  vim src/main.c 
+ 1480  make lcean
+ 1481  make clean
+ 1482  make
+ 1483  clear
+ 1484  PS
+ 1485  clear
+ 1486  cd
+ 1487  cd Google\ Drive/My\ Documents/Projects/Games/sp3_2/
+ 1488  clear
+ 1489  ls
+ 1490  vim src/*
+ 1491  vim -p src/*
+ 1492  vim compile_flags.txt 
+ 1493  vim -p src/*
+ 1494  vim compile_flags.txt 
+ 1495  vim -p src/*
+ 1496  vim compile_flags.txt 
+ 1497  vim -p src/*
+ 1498  vim compile_flags.txt 
+ 1499  vim -p src/*
+ 1500  vim compile_flags.txt 
+ 1501  clear
+ 1502  vim -p src/*
+ 1503  PS vim
+ 1504  PS
+ 1505  ks
+ 1506  vim
+ 1507  PS
+ 1508  ks
+ 1509  PS
+ 1510  make
+ 1511  clear
+ 1512  PS
+ 1513  make
+ 1514  clear
+ 1515  PS
+ 1516  make
+ 1517  clear
+ 1518  PS
+ 1519  make
+ 1520  clear
+ 1521  PS
+ 1522  clear
+ 1523  make
+ 1524  clear
+ 1525  PS
+ 1526  make
+ 1527  clear
+ 1528  PS
+ 1529  make
+ 1530  clear
+ 1531  PS
+ 1532  make
+ 1533  clear
+ 1534  PS
+ 1535  make
+ 1536  clear
+ 1537  PS
+ 1538  make
+ 1539  clear
+ 1540  PS
+ 1541  clear
+ 1542  make
+ 1543  clear
+ 1544  PS
+ 1545  make
+ 1546  PS
+ 1547  ks
+ 1548  vim
+ 1549  clear
+ 1550  make
+ 1551  vim includes/hacks.h 
+ 1552  make
+ 1553  clear
+ 1554  vim -p includes/hacks.h src/hacks.c 
+ 1555  make
+ 1556  clear
+ 1557  vim -p includes/hacks.h src/hacks.c 
+ 1558  clear
+ 1559  make
+ 1560  clear
+ 1561  vim -p includes/hacks.h src/hacks.c 
+ 1562  make
+ 1563  clear
+ 1564  vim -p includes/hacks.h src/hacks.c 
+ 1565  clear
+ 1566  make
+ 1567  vim -p includes/hacks.h src/hacks.c 
+ 1568  vim
+ 1569  clear
+ 1570  make
+ 1571  wxc++
+ 1572  make
+ 1573  cd /mnt/c/Program\ Files\ \(x86\)/
+ 1574  cd Microsoft\ DirectX\ SDK\ \(June\ 2010\)/
+ 1575  cd Include/
+ 1576  cd ..
+ 1577  cd ~/Google\ Drive/My\ Documents/Projects/Games/hitman3/
+ 1578  cd Multi-Hack/
+ 1579  clear
+ 1580  make
+ 1581  grep -rl "XInputGetState" .
+ 1582  make
+ 1583  ks
+ 1584  vim
+ 1585  ls
+ 1586  mkdir release
+ 1587  clear
+ 1588  make
+ 1589  clear
+ 1590  make
+ 1591  clear
+ 1592  make
+ 1593  claer
+ 1594  clear
+ 1595  make
+ 1596  exit
+ 1597  ks
+ 1598  vim
+ 1599  PS
+ 1600  ks
+ 1601  PS vim
+ 1602  PS
+ 1603  cp ~/prebuilt/cmake/win/32/CMakeLists.txt .
+ 1604  mkdir build
+ 1605  clear
+ 1606  cd build/
+ 1607  cmake .. -G "Visual Studio 16 2019" -A Win32
+ 1608  PS
+ 1609  clear
+ 1610  cd ..
+ 1611  rm build -f
+ 1612  rm build -fr
+ 1613  sudo rm build -fr
+ 1614  ls
+ 1615  explorer .
+ 1616  explorer.exe .
+ 1617  clear
+ 1618  ls
+ 1619  rm Cma
+ 1620  rm CMakeLists.txt 
+ 1621  clear
+ 1622  ls
+ 1623  ks
+ 1624  make
+ 1625  clear
+ 1626  dev
+ 1627  vim .
+ 1628  make
+ 1629  clear
+ 1630  PS
+ 1631  make
+ 1632  clear
+ 1633  PS
+ 1634  make
+ 1635  PS
+ 1636  make
+ 1637  clear
+ 1638  PS
+ 1639  clear
+ 1640  make
+ 1641  clear
+ 1642  PS
+ 1643  make
+ 1644  clear
+ 1645  PS
+ 1646  make
+ 1647  clear
+ 1648  PS
+ 1649  make
+ 1650  ls
+ 1651  cd Release/
+ 1652  explorer .
+ 1653  explorer.exe .
+ 1654  PS
+ 1655  make
+ 1656  cd ..
+ 1657  make
+ 1658  PS
+ 1659  make
+ 1660  PS
+ 1661  make
+ 1662  PS
+ 1663  make
+ 1664  PS
+ 1665  make
+ 1666  PS
+ 1667  make
+ 1668  clear
+ 1669  PS
+ 1670  make
+ 1671  PS
+ 1672  make
+ 1673  PS
+ 1674  make
+ 1675  PS
+ 1676  make
+ 1677  PS
+ 1678  make
+ 1679  PS
+ 1680  make
+ 1681  PS
+ 1682  make
+ 1683  PS
+ 1684  make
+ 1685  PS
+ 1686  clear
+ 1687  make
+ 1688  PS
+ 1689  make
+ 1690  PS
+ 1691  make
+ 1692  PS
+ 1693  make
+ 1694  PS
+ 1695  make
+ 1696  PS
+ 1697  make
+ 1698  PS
+ 1699  clear
+ 1700  make
+ 1701  PS
+ 1702  make
+ 1703  PS
+ 1704  make
+ 1705  PS
+ 1706  make
+ 1707  PS
+ 1708  make
+ 1709  clear
+ 1710  PS
+ 1711  make
+ 1712  PS
+ 1713  make
+ 1714  PS
+ 1715  make
+ 1716  PS
+ 1717  make
+ 1718  PS
+ 1719  make
+ 1720  PS
+ 1721  make
+ 1722  PS
+ 1723  make
+ 1724  PS
+ 1725  make
+ 1726  PS
+ 1727  make
+ 1728  PS
+ 1729  make
+ 1730  PS
+ 1731  make
+ 1732  PS
+ 1733  mmake
+ 1734  ,ake
+ 1735  make
+ 1736  PS
+ 1737  make
+ 1738  PS
+ 1739  make
+ 1740  PS
+ 1741  make
+ 1742  PS
+ 1743  make
+ 1744  PS
+ 1745  make
+ 1746  PS
+ 1747  make
+ 1748  PS
+ 1749  make
+ 1750  PS
+ 1751  make
+ 1752  PS
+ 1753  make
+ 1754  PS
+ 1755  make
+ 1756  PS
+ 1757  make
+ 1758  PS
+ 1759  make
+ 1760  PS
+ 1761  make
+ 1762  PS
+ 1763  make
+ 1764  PS
+ 1765  make
+ 1766  PS
+ 1767  make
+ 1768  PS
+ 1769  clear
+ 1770  make
+ 1771  PS
+ 1772  make
+ 1773  clear
+ 1774  PS
+ 1775  make
+ 1776  PS
+ 1777  make
+ 1778  PS
+ 1779  make
+ 1780  PS
+ 1781  make
+ 1782  PS
+ 1783  make
+ 1784  PS
+ 1785  make
+ 1786  PS
+ 1787  make
+ 1788  PS
+ 1789  clear
+ 1790  mdev
+ 1791  ks
+ 1792  clear
+ 1793  dev
+ 1794  clear
+ 1795  ks
+ 1796  clear
+ 1797  cd ..
+ 1798  cd hitman
+ 1799  cd hitman3
+ 1800  cd Multi-Hack/
+ 1801  ls
+ 1802  la
+ 1803  cd ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/
+ 1804  cd ..
+ 1805  cd hitman
+ 1806  cd hitman\ bloodmoney\ hacks/
+ 1807  cd Multi-Hack/
+ 1808  cd ..
+ 1809  cd..
+ 1810  cd ..
+ 1811  cd hitman3
+ 1812  cd Multi-Hack/
+ 1813  rm ImGui\ DirectX\ 9\ Kiero\ Hook\ 2
+ 1814  rm ImGui\ DirectX\ 9\ Kiero\ Hook\ 2.sln 
+ 1815  rm Debug/
+ 1816  rm Debug/ -fr
+ 1817  rm .vs
+ 1818  rm .vs .git -fr
+ 1819  clear
+ 1820  ls
+ 1821  cd ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/
+ 1822  rm -fr Debug/ Release/
+ 1823  ls
+ 1824  la
+ 1825  rm *.v*
+ 1826  ls
+ 1827  la
+ 1828  cp . .. -r
+ 1829  cd ..
+ 1830  rm ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/ -fr
+ 1831  mkdir includes src
+ 1832  ls
+ 1833  mv *.cpp src
+ 1834  ls
+ 1835  mv includes.h src
+ 1836  ls
+ 1837  rm *.h includes/
+ 1838  rm *.h includes
+ 1839  ls
+ 1840  cp ../../hitman\ bloodmoney\ hacks/Multi-Hack/ImGui\ DirectX\ 9\ Kiero\ Hook\ 2/*.h .
+ 1841  ls
+ 1842  rm includes.h
+ 1843  mv *.h includes/
+ 1844  ls
+ 1845  clear
+ 1846  ls
+ 1847  cp ~/prebuilt/make/win/32/Makefile .
+ 1848  ls
+ 1849  clear
+ 1850  vim Makefile 
+ 1851  mv imgui/ includes/ -fr
+ 1852  mv imgui/ includes/ -f
+ 1853  ls
+ 1854  mv -f kiero/ includes/
+ 1855  ls
+ 1856  ls Release/
+ 1857  rm Release/*
+ 1858  ls
+ 1859  cd Release/
+ 1860  ls
+ 1861  cd ..
+ 1862  clear
+ 1863  vim Makefile 
+ 1864  make
+ 1865  vim src/*.cpp
+ 1866  vim -p src/*.cpp
+ 1867  vim src/includes.h 
+ 1868  make
+ 1869  vim includes/hacks.h 
+ 1870  make
+ 1871  dev
+ 1872  ks
+ 1873  clear
+ 1874  dev
+ 1875  cd ..
+ 1876  cd sp3_2/
+ 1877  dev
+ 1878  clear
+ 1879  ls
+ 1880  git clone https://github.com/microsoft/Detours.git
+ 1881  exit
+ 1882  make
+ 1883  clear
+ 1884  ls /usr/i686-w64-mingw32/lib
+ 1885  make
+ 1886  clear
+ 1887  make
+ 1888  i686-w64-mingw32-gcov-tool-win32 
+ 1889  gendef
+ 1890  sed
+ 1891  clear
+ 1892  exit
+ 1893  vim
+ 1894  ks
+ 1895  vim
+ 1896  PS
+ 1897  mkdir src
+ 1898  wxc
+ 1899  vim src/main.c
+ 1900  dev
+ 1901  mdev
+ 1902  clear
+ 1903  ks
+ 1904  clear
+ 1905  dev
+ 1906  clear
+ 1907  ks
+ 1908  clear
+ 1909  exit
+ 1910  vim
+ 1911  clear
+ 1912  git init .
+ 1913  clear
+ 1914  git push -m master
+ 1915  git commit -m master
+ 1916  git add *
+ 1917  git commit -m master
+ 1918  git push
+ 1919  git push SplinterCell3\ Trainer
+ 1920  git push --set-upstream SplinterCell3\ Trainer\ C
+ 1921  git push --set-upstream SplinterCell3\ Trainer\ C master
+ 1922  git commit -m "Initial Commit"
+ 1923  clear
+ 1924  git add .
+ 1925  celar
+ 1926  clear
+ 1927  git commit -m "initial commit"
+ 1928  clear
+ 1929  git push
+ 1930  git remote add "SP3 Trainer C" github.com/malikrbooker/SP3TrainerC
+ 1931  git remote add "SP3TrainerC" github.com/malikrbooker/SP3TrainerC
+ 1932  git push
+ 1933  git push SP3TrainerC
+ 1934  git push --set-upstream SP3TrainerC master
+ 1935  cler
+ 1936  clear
+ 1937  git --bare init
+ 1938  git config core.sharedrepository 1
+ 1939  git config receive.denyNonFastforwards true
+ 1940  find objects -type d -exec chmod 02770 {} \;
+ 1941  git remote add origin .
+ 1942  git push -u origin master
+ 1943  add .
+ 1944  git add .
+ 1945  clear
+ 1946  ls
+ 1947  clear
+ 1948  git init
+ 1949  git add .
+ 1950  clear
+ 1951  git commit -m "Inital commit."
+ 1952  clear
+ 1953  git remote add origin https://github.com/malikrbooker/SCCTTrainer.git
+ 1954  clear
+ 1955  git push -u origin master
+ 1956  clear
+ 1957  ls
+ 1958  clear
+ 1959  la
+ 1960  git push -u origin master
+ 1961  git add .
+ 1962  claer
+ 1963  clear
+ 1964  git commit
+ 1965  git commit -m "updated gitignore"
+ 1966  git push
+ 1967  clear
+ 1968  git remote set-url origin git@github.com:<malikrbooker>/<SCCTTrainer>.git
+ 1969  git remote set-url origin git@github.com:malikrbooker/SCCTTrainer.git
+ 1970  clear
+ 1971  git push
+ 1972  git push -u origin master
+ 1973  cat ~/.ssh/id_rsa.pub | xclip
+ 1974  cat ~/.ssh/id_rsa.pub
+ 1975  ks
+ 1976  vim
+ 1977  ks
+ 1978  git push -u origin master
+ 1979  clear
+ 1980  git add .
+ 1981  git commit "Updated Gitignore"
+ 1982  git commit -m "Updated Gitignore"
+ 1983  clear
+ 1984  git commit
+ 1985  git commit .
+ 1986  git commit "updated gitignore"
+ 1987  vim
+ 1988  clear
+ 1989  dev
+ 1990  ks
+ 1991  clear
+ 1992  cat ~/.ssh/id_rsa.pub 
+ 1993  dev
+ 1994  ks
+ 1995  clear
+ 1996  dev
+ 1997  ks
+ 1998  exi
+ 1999  exit
+ 2000  clear
+ 2001  git init .
+ 2002  clear
+ 2003  git commit -m first commit
+ 2004  git add .
+ 2005  git commit -m first commit
+ 2006  git commit -m "first commit"
+ 2007  clear
+ 2008  git commit -m ""
+ 2009  sudo rm -f ./.git/index.lock
+ 2010  git commit -m "first commit"
+ 2011  vim .gitignore
+ 2012  clear
+ 2013  git add .
+ 2014  git commit -m "First commit"
+ 2015  history
+ 2016  history >> file | vim
