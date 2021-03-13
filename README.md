@@ -3,7 +3,8 @@
 ## Overview:
 This is a repository for a Hitman Blood Money DLL that I built entirely with Visual C++.
 
-The main purpose of this project was to get familiar with programming internal GUIs and familiarizing myself with process hooking techniques.
+The main purpose of this project was to get familiar with programming internal GUIs and  
+familiarize myself with process hooking techniques.
 
 ## Table of Contents
   - [Demonstration](#demonstration)
@@ -27,9 +28,9 @@ Windows applications blah blah blah DLL stuff
 5. Profit.
 
 The hacks written are:
-- Press <code>TAB</code> to toggle God mode
-- Press <code>I</code> to toggle PolterGheist (Invisibilty & Dead Silence)
-- Press <code>G</code> to toggle PlayDead (Reduce player health to 0 without killing player)
+- Press <code>TAB</code> to toggle God mode.
+- Press <code>[</code> previous entity.
+- Press <code>]</code> next entity.
 - Press <code>T</code> to teleport to any given entity.
 - Press <code>Shift + T</code> to teleport to current camera target.
 
