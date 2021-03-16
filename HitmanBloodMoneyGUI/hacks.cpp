@@ -6,15 +6,32 @@
 #include "hacks.h"
 #include "mem.h"
 
-using std::isnan;
+#define COORD_MAX 8000
+#define COORD_MIN -8000
 
+bool ValidCoordinate(float coordinate)
+{
+	if (coordinate == 0)
+		return false;
+
+	if (std::isnan(coordinate))
+		return false;
+
+	if (coordinate > COORD_MAX)
+		return false;
+
+	if (coordinate < COORD_MIN)
+		return false;
+
+	return true;
+}
 
 void Hacks::UpdatePlayerCamCoords(uintptr_t addr, std::vector<unsigned int> offsets, float* x_cam, float* y_cam, float* z_cam)
 { 
 	uintptr_t module_base_address = (uintptr_t)GetModuleHandle(NULL);
 
 	PlayerCoords* coords          = (PlayerCoords*)FindDMAddress(module_base_address + addr, offsets);
-	if (&coords->x != nullptr && &coords->y != nullptr && &coords->z != nullptr)
+	if (coords != nullptr && ValidCoordinate(coords->x) && ValidCoordinate(coords->y) && ValidCoordinate(coords->z))
 	{
 		*x_cam = coords->x;
 		*y_cam = coords->y;
@@ -28,12 +45,12 @@ void Hacks::TeleportToCam(uintptr_t addr, std::vector<unsigned int> offsets, flo
 	uintptr_t module_base_addr = (uintptr_t)GetModuleHandle(NULL);
 
 	PlayerCoords* xyz          = (PlayerCoords*)FindDMAddress(module_base_addr + addr, offsets);
-	if ((xyz != nullptr && &xyz->x != nullptr && &xyz->y != nullptr && &xyz->z != nullptr) && (!isnan(xyz->x) && !isnan(xyz->y) && !isnan(xyz->z)))
-	{
+	//if (xyz != nullptr && ValidCoordinate(xyz->x) && ValidCoordinate(xyz->y) && ValidCoordinate(xyz->z))
+	//{
 		xyz->x = x_cam;
 		xyz->y = y_cam;
 		xyz->z = z_cam;
-	}
+	//}
 
 }
 

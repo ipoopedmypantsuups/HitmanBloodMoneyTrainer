@@ -11,6 +11,9 @@
 #include "offsets.h"
 
 
+#define DEBUG
+
+
 using namespace offsets;
 
 // Some ImGui variables
@@ -31,7 +34,6 @@ WNDPROC oWndProc;
 bool bCheatsEnabled	= false;
 bool bMainWindow	= true;
 bool bLastPass		= false;
-bool bLocation		= true;
 bool bInGame		= false;
 bool bInit			= false;
 
@@ -44,6 +46,11 @@ int current_entity = 0;
 
 void InitImGui(LPDIRECT3DDEVICE9 pDevice)
 {
+#ifdef DEBUG
+	FILE* f;
+	AllocConsole();
+	freopen_s(&f, "CONOUT$", "w", stdout);
+#endif
 	ImGui::CreateContext();
 	ImGuiIO& io = ImGui::GetIO();
 	io.ConfigFlags = ImGuiConfigFlags_NoMouseCursorChange;
@@ -93,37 +100,58 @@ long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice)
 
 		bCheatsEnabled = !bCheatsEnabled;
 		Hacks::GodMode(bCheatsEnabled);
+#ifdef DEBUG
+		std::cout << "Godmode: " << (bCheatsEnabled ? "Enabled." : "Disabled.") << std::endl;
+#endif
 	}
 
 	// Previous Entity
 	if ((GetAsyncKeyState(VK_OEM_4) & 1) > 0 && bCheatsEnabled && bInGame)
 	{
 		Hacks::SetCurrentEntity(&current_entity, -1);
+#ifdef DEBUG
+		std::cout << "Decrementing entity..." << std::endl;
+#endif
 	}
 
 	// Next Entity
 	if ((GetAsyncKeyState(VK_OEM_6) & 1) > 0 && bCheatsEnabled && bInGame)
 	{
 		Hacks::SetCurrentEntity(&current_entity, 1);
+#ifdef DEBUG
+		std::cout << "Incrementing entity..." << std::endl;
+#endif
 	}
 
 	// Teleport to entity
 	if (!(GetAsyncKeyState(VK_LSHIFT) & 0x8000) && (GetAsyncKeyState('T') & 1) > 0 && bCheatsEnabled && bInGame)
 	{
 		Hacks::TeleportToEntity(XYZ_BASE_ADDR_PLAYER, XYZ_OFFSETS_PLAYER, current_entity);
+#ifdef DEBUG
+		std::cout << "Teleporting to entity[" << current_entity << "]..." << std::endl;
+#endif
 	}
 
 	// Teleport to camera location
 	if ((GetAsyncKeyState(VK_LSHIFT) & 0x8000) && (GetAsyncKeyState('T') & 1) > 0 && bCheatsEnabled && bInGame)
 	{
 		Hacks::TeleportToCam(XYZ_BASE_ADDR_PLAYER, XYZ_OFFSETS_PLAYER, x_cam, y_cam, z_cam);
+#ifdef DEBUG
+		std::cout << "Teleporting to: ";
+		std::cout << "x: " << x_cam << " ";
+		std::cout << "y: " << y_cam << " ";
+		std::cout << "z: " << z_cam << " " << std::endl;
+#endif
 	}
 
 	// Disable all cheats before ejecting
 	if (bLastPass)
 	{
 		kiero::shutdown();
-		//FreeLibraryAndExitThread();
+#ifdef f
+		fclose(f);
+		FreeConsole();
+#endif
 	}
 
 	// Initiate last pass
@@ -131,7 +159,6 @@ long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice)
 	{
 		bCheatsEnabled = false;
 		bMainWindow	   = false;
-		bLocation	   = false;
 		bLastPass      = true;
 	}
 
