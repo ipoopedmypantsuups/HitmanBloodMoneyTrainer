@@ -2,13 +2,13 @@
 #include <cmath>
 
 // Imgui includes
-#include "includes.h"
+#include "includes.hpp"
 #include "imgui/imgui.h"
 
 // Hack includes
-#include "hacks.h"
-#include "entity.h"
-#include "offsets.h"
+#include "hacks.hpp"
+#include "entity.hpp"
+#include "offsets.hpp"
 
 
 #define DEBUG

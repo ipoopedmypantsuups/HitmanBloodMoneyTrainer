@@ -1,10 +1,10 @@
 #include <cmath>
 #include <string>
 
-#include "includes.h"
-#include "entity.h"
-#include "hacks.h"
-#include "mem.h"
+#include "includes.hpp"
+#include "entity.hpp"
+#include "hacks.hpp"
+#include "mem.hpp"
 
 #define COORD_MAX 8000
 #define COORD_MIN -8000
